@@ -20,5 +20,8 @@ jobs:
           node-version: '18.x'
       - run: npm ci
 
-      - name: Lint
+      - name: Run Lint
         run: npm run lint
+
+      - name: Run Format
+        run: npm run format
